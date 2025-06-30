@@ -41,7 +41,7 @@ The architecture includes:
 
 A short video demonstrates the system running on the FPGA board, showing LED control and Eclipse output.
 
-👉 [Watch demo video](media/implementation_demo.mp4)
+👉 [Watch demo video](Annexes/Video.mp4)
 
 ---
 
