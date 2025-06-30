@@ -41,16 +41,15 @@ The architecture includes:
 
 A short video demonstrates the system running on the FPGA board, showing LED control and Eclipse output.
 
-👉 [Watch demo video](Annexes/Video.mp4)
+👉 [Watch demo video](Annexes/Vídeo .mp4)
 
 ---
 
 ## 📂 Project Contents
 
 - `Final_Project_Report.pdf`: Technical report (goal, design, results)
-- `src/`: Quartus project files and C code for embedded logic
-- `media/`: Video of implementation on FPGA
-- `figures/`: Diagrams and output screenshots
+- `Annexes/Project`: Quartus project files and C code for embedded logic
+- `Annexes/video.mp4`: Video of implementation on FPGA
 
 ---
 
