@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity ylx is
+    Port ( x : in STD_LOGIC_VECTOR(31 downto 0);
+           y : in STD_LOGIC_VECTOR(31 downto 0);
+			  clk: in std_logic;
+           result : out STD_LOGIC);
+end ylx;
+
+architecture Behavioral of ylx is
+
+begin
+    process(clk	)
+    begin
+		 if rising_edge(clk) then
+			greater <= '1' when (A > B) else '0';
+			equal <= '1' when (A = B) else '0';
+		 end if;
+    end process;
+	 
+end Behavioral;
